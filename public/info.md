@@ -8,7 +8,7 @@ You're the manager of the house. Inside your house, lots of things are happening
 - Kids are playing
 - Groceries are being used
 - Laundry is piling up
-- People are asking for snacks
+- Kids are asking for snacks
 
 This is like your component's state — things that change over time.
 
@@ -22,9 +22,7 @@ It’s like hiring an assistant who:
 
 - Keeps track of everything for you (the current state)
 - Follows a rulebook (called a “reducer”) for what to do when something happens
-- Only changes things when you ask (by “dispatching” actions)
-
-So you don’t get overwhelmed. 
+- Only changes things when you ask (by “dispatching” actions).
 
 ## __3. The Ingredients__
 
@@ -71,7 +69,7 @@ const [state, dispatch] = useReducer(reducer, initialState);
 
 - `dispatch`: how we send actions, like “EAT_COOKIE”
 
-- Full example : Mom-dashboard
+- Full example : [Mom-dashboard](/)
 
 ### 4. Key Points
 
