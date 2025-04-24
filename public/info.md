@@ -65,10 +65,6 @@ function reducer(state, action) {
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
-- `state`: current values (cookies, laundry, kids)
-
-- `dispatch`: how we send actions, like “EAT_COOKIE”
-
 - Full example : [Mom-dashboard](/)
 
 ### 4. Key Points
